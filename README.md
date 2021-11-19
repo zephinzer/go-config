@@ -1,6 +1,6 @@
 # go-config
 
-[![gitlab tag (latest by date)](https://img.shields.io/gitlab/v/tag/zephinzer/go-config?sort=date)](https://img.shields.io/github/v/tag/zephinzer/go-config)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/zephinzer/go-config)
 [![pipeline status](https://gitlab.com/zephinzer/go-config/badges/master/pipeline.svg)](https://gitlab.com/zephinzer/go-config/-/commits/master)
 [![coverage report](https://gitlab.com/zephinzer/go-config/badges/master/coverage.svg)](https://gitlab.com/zephinzer/go-config/-/commits/master)
 
