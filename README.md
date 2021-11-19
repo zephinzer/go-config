@@ -1,5 +1,10 @@
 # go-config
 
+![gitlab tag (latest by date)](https://img.shields.io/gitlab/v/tag/zephinzer/go-config?sort=date)
+[![pipeline status](https://gitlab.com/zephinzer/go-config/badges/master/pipeline.svg)](https://gitlab.com/zephinzer/go-config/-/commits/master)
+[![coverage report](https://gitlab.com/zephinzer/go-config/badges/master/coverage.svg)](https://gitlab.com/zephinzer/go-config/-/commits/master)
+
+
 An intuitive configuration loader for use in Golang applications.
 
 - [go-config](#go-config)
@@ -101,7 +106,7 @@ You should get the following pretty-printed JSON output:
 
 ## Variable name parsing
 
-This library converts variable names in your provided configuration `struct` into `UPPER_SNAKE_CASE` and checks the environment for these keys. The library `go-strcase` is used to parse the variable names into environment variables. Here are some examples of the transformation:
+This library converts variable names in your provided configuration `struct` into `UPPER_SNAKE_CASE` and checks the environment for these keys. The library [`go-strcase`](https://github.com/zephinzer/go-strcase) is used to parse the variable names into environment variables. Here are some examples of the transformation:
 
 | Variable name | Derived environment value key |
 | --- | --- |
